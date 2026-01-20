@@ -60,6 +60,14 @@ See `bench.py` for benchmark.
 | vLLM           | 133,966     | 98.37    | 1361.84               |
 | Nano-vLLM      | 133,966     | 93.41    | 1434.13               |
 
+**Additional Test Results:**
+- Hardware: RTX 3090 (24GB)
+- Prefill Speed (single sequence): 4 tok/s
+- Decode Speed (single sequence): 352 tok/s
+- Total Tokens: 133,966
+- Total Time: 29.38s
+- Overall Throughput: 4559.62 tok/s
+
 
 ## Star History
 
